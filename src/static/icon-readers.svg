@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="571" viewBox="0 0 504 571">
+  <g fill="none" fill-rule="evenodd" transform="translate(13 13)">
+    <circle cx="239" cy="239" r="245.5" stroke="#BB9F53" stroke-width="13"/>
+    <circle cx="338.9" cy="162.8" r="40.11" fill="#FFF5DA" fill-rule="nonzero"/>
+    <path fill="#FFF5DA" fill-rule="nonzero" d="M338.9,202.91 C362.554356,202.91 381.73,222.085644 381.73,245.74 L381.73,269.53 L296.07,269.53 L296.07,245.73 C296.07,222.075644 315.245644,202.9 338.9,202.9 L338.9,202.91 Z"/>
+    <circle cx="338.9" cy="162.8" r="40.11" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15"/>
+    <path stroke="#BB9F53" stroke-linejoin="round" stroke-width="15" d="M338.9,202.91 C362.554356,202.91 381.73,222.085644 381.73,245.74 L381.73,269.53 L296.07,269.53 L296.07,245.73 C296.07,222.075644 315.245644,202.9 338.9,202.9 L338.9,202.91 Z"/>
+    <circle cx="139.1" cy="162.8" r="40.11" fill="#FFF5DA" fill-rule="nonzero"/>
+    <path fill="#FFF5DA" fill-rule="nonzero" d="M96.29,202.9 L181.94,202.9 L181.94,226.69 C181.94,250.344356 162.764356,269.52 139.11,269.52 C115.455644,269.52 96.28,250.344356 96.28,226.69 L96.28,202.9 L96.29,202.9 Z" transform="rotate(180 139.11 236.21)"/>
+    <circle cx="139.1" cy="162.8" r="40.11" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15"/>
+    <path stroke="#BB9F53" stroke-linejoin="round" stroke-width="15" d="M96.29,202.9 L181.94,202.9 L181.94,226.69 C181.94,250.344356 162.764356,269.52 139.11,269.52 C115.455644,269.52 96.28,250.344356 96.28,226.69 L96.28,202.9 L96.29,202.9 Z" transform="rotate(180 139.11 236.21)"/>
+    <circle cx="239" cy="132.74" r="40.11" fill="#FFF5DA" fill-rule="nonzero" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15"/>
+    <path fill="#FFF5DA" fill-rule="nonzero" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15" d="M239,172.84 C250.359222,172.84 261.2532,177.352433 269.285383,185.384617 C277.317567,193.4168 281.83,204.310778 281.83,215.67 L281.83,270.5 L196.17,270.5 L196.17,215.67 C196.17,192.015644 215.345644,172.84 239,172.84 Z"/>
+    <rect width="303" height="233" x="87.5" y="317.5" fill="#FFF" fill-rule="nonzero" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15"/>
+    <rect width="345" height="52.6" x="66.5" y="267.46" fill="#FFF" fill-rule="nonzero" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15"/>
+    <path fill="#FFF" fill-rule="nonzero" stroke="#BB9F53" stroke-linejoin="round" stroke-width="15" d="M118.5 327.5L118.5 420.5M356.5 328L356.5 421"/>
+  </g>
+</svg>

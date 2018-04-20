@@ -1,0 +1,122 @@
+/*******************************
+	Last Updated: 2018-03-20
+*******************************/
+/*******************************
+	Desktop
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:200,400');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+
+#invitation-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+#invitation-modal .content {
+    min-width: 280px;
+    max-width: 720px;
+    height: 490px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+#invitation-modal .logo {
+    width: 40px;
+    height: 40px;
+}
+
+#invitation-modal .description {
+    margin-bottom: 30px;
+}
+
+#invitation-modal .text-input {
+    font-size: 16px;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 8px;
+}
+
+#invitation-modal .textarea-input {
+    font-size: 16px;
+    width: 100%;
+    height: 120px;
+    line-height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 8px;
+    resize: none;
+}
+
+#invitation-modal .buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+#invitation-modal .submit,
+#invitation-modal .cancel {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #fff5da;
+    background: #ba9e59;
+    width: 130px;
+    height: 36px;
+    text-align: center;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+    opacity: 0.7;
+}
+
+#invitation-modal .cancel {
+    color: #777;
+    background: #ccc;
+}
+
+#invitation-modal .submit:hover,
+#invitation-modal .cancel:hover {
+    opacity: 1;
+}
+
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+
+    #invitation-modal p {
+        font-size: 14px;
+    }
+
+    #invitation-modal .content {
+        width: 90%;
+        padding: 10px 20px;
+    }
+
+    #invitation-modal .description {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    #invitation-modal .text-input,
+    #invitation-modal .textarea-input {
+        font-size: 14px;
+    }
+    #invitation-modal .textarea-input {
+        height: 90px;
+    }
+}
