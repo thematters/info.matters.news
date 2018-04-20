@@ -1,0 +1,11 @@
+{
+    "name": "info.matters.news",
+    "version": "0.0.1",
+    "description": "Information about matters",
+    "main": "src/index.html",
+    "scripts": {
+        "deploy": "rsync -ap src/ ${MATERIA_PRODUCTION_DEPLOY_USER}@${MATERIA_PRODUCTION_TARGET_SERVER}:/var/www/matters-info/"
+    },
+    "author": "",
+    "license": "UNLICENSED"
+}
