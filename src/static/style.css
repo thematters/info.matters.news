@@ -1,7 +1,4 @@
 /*******************************
-	Last Updated: 2018-03-20
-*******************************/
-/*******************************
 	Desktop
 *******************************/
 @import url('https://fonts.googleapis.com/css?family=Martel+Sans:200,400');
@@ -234,14 +231,14 @@ display: none;
 	padding: 100px 0 0 0;
 }
 #roles {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-	flex-wrap: row wrap;
-    justify-content: space-between;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	align-content: flex-start;
 	align-items: stretch;
 }
@@ -287,7 +284,6 @@ display: none;
 	width: 100%;
 	height: 100%;
 	min-height: 96px;
-	font-family: ;
 	font-size: 28px;
 	padding: 64px 0;
 	background-image: url('./icon-roadmap-line.svg');
@@ -396,7 +392,7 @@ ul#social-media li a img {
 	height: 36px;
 	text-align: center;
 	cursor: pointer;
-	transition: all .2s ease;
+	transition: all .2s ease-in-out;
     margin-bottom: 8px;
 }
 #social input[type=submit]:hover {
@@ -423,7 +419,6 @@ ul#social-media li a img {
 }
 #newsletter input[type=submit] {
 	float: left;
-	display: inline-block;
 	border-radius: 2px;
 	background: #98824b;
 	color: #cfc7b2;
@@ -458,14 +453,95 @@ footer {
 }
 
 
+
+
+#telegram-afloat {
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	padding: 0;
+	transition: all .5s ease-in-out;
+	z-index: 9999;
+}
+#telegram-afloat a#tg-close {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	display: block;
+	z-index: 999;
+	right: -12px;
+	top: -12px;
+	background-color: #000;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.7);
+	cursor: pointer;
+}
+#telegram-afloat a#tg-close:hover {
+	opacity: 1;
+}
+#telegram-afloat a#tg-close:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	right: 9px;
+	width: 2px;
+	height: 14px;
+	background: #fff;
+	transform: rotate(45deg);
+}
+#telegram-afloat a#tg-close:after {
+	content: '';
+	position: absolute;
+	top: 9px;
+	right: 3px;
+	width: 14px;
+	height: 2px;
+	background: #fff;
+	transform: rotate(45deg);
+}
+#telegram-afloat a#tg-link {
+	float: right;
+	height: 36px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 280%;
+	background: rgb(67,163,224);
+	color: rgba(255,255,255,0.8);
+	border-radius: 4px;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+	padding: 0 20px 0 10px;
+	position: relative;
+}
+#telegram-afloat a#tg-link:before {
+	content: '';
+	display: block;
+	float: left;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #fff;
+	background-image: url('./logo-telegram.svg');
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	-webkit-filter : hue-rotate(156deg) saturate(170%) brightness(94%);
+	filter : hue-rotate(156deg) saturate(170%) brightness(94%);
+}
+#telegram-afloat a#tg-link:hover {
+	color: #fff;
+}
+
 /*******************************
 	iPhone
 *******************************/
 @media only screen
 and (min-width: 320px)
 and (max-width: 480px) {
-body {
-}
 
 #navbar {
 	display: block;
@@ -688,23 +764,12 @@ ul#social-media li a {
 #copyright {
 	font-size: 14px;
 }
+
+#telegram-afloat {
+	top: auto;
+	bottom: 40px;
+	right: 40px;
 }
 
-#telegram-block {
-	position: fixed;
-	top: 40px;
-	right: 40px;
-	background: #00a4df;
-	color: #fff;
-	border-radius: 4px;
-}
-#telegram-block a {
-	float: right;
-	font-weight: 700;
-	line-height: 100%;
-	vertical-align: baseline;
-	display: inline-block;
-	color: #fff;
-	text-decoration: none;
-	padding: 8px 16px;
+
 }
